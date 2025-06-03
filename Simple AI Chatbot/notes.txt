@@ -1,0 +1,83 @@
+slide 1
+
+slide 2: paper
+
+slide 3
+
+slide 4
+
+slide 5
+
+slide 6-8: 
+After implementing my initial fine-tuned GPT-2 model, I was looking for ways to enhance it:
+How do I make my fine-tuned chatbot generalize to new, unseen questions?
+1) Expand and diversify the dataset.
+2) Use a hybrid approach (e.g. GPT-2 + GPT-3.5 fallback).
+3) Implement Retrieval-Augmented Generation (RAG): where the bot pulls from a text file or knowledge base
+and then I thought of implementing an RNN to predict answers smartly, however after research, I figured that RNNs are outdated for NLP tasks.
+Transformers (like GPT) are superior: they are better at context handling, faster training, state-of-the-art accuracy, and widespread pretrained models.
+
+DialoGPT was initially chosen for:
+1) Natural conversational ability
+2) Local training support
+3) Simplicity and scalability
+It's better than RNNs for chat.
+But its main limitation is that it doesn’t automatically know how to respond to simple prompts like “how are you?” unless explicitly trained on them.
+DialoGPT is pretrained on conversations and should answer casual questions like “hi” or “thanks” by default.
+But over-fine-tuning with narrow bakery data erased its conversational instincts.
+This is an example of catastrophic forgetting — it loses general knowledge when overfit to a specific domain.
+
+Issues after fix attempt #1
+Adding small talk didn’t fully fix the model.
+Problems:
+1) Model interprets “Q:” as a continuation trigger and generates fake questions.
+2) Full chat history slows generation by exceeding token limits.
+3) Model sometimes cuts off or generates mid-sentence.
+Fixes included:
+1) Truncating history
+2) Adjusting generation parameters
+3) Adding stop instructions
+
+Even after rephrasing Q&A (3–5 versions each), the model:
+Answered only 2 questions correctly and missed others
+Cause: too little data (<1000 samples) → overfitting → poor generalization
+DialoGPT isn't designed for precise Q-A retrieval — it's built for flow, not exact matching.
+even if trained on:
+  Q: What are your hours on Friday?
+  A: 8am to 8pm Friday
+DialoGPT may respond:
+  A: 8am to 8pm Sunday
+Solution: implement a retrieval augmented system (RAG) by combining:
+1) Semantic similarity matching
+2) Response generation
+Code loads all Q&As, embeds them, and retrieves the closest match on user input.
+
+Summary of the retrieval system:
+1) No training needed
+2) Embeds each question.
+On user input, it:
+1) Encodes the input
+2) Compares it to all embeddings
+3) Returns the closest match
+Result: fast, accurate, and stable bot.
+This retrieval method is not fine-tuning:
+1) It doesn’t update model weights
+2) No new model is created
+3) It uses a frozen model purely for embedding/lookup
+Although Retrieval is instant, accurate, finds known answers, only that I couldn't depend on it given the project's clear requirements on Fine-tuning.
+
+Attempted to fix my DialoGPT fine-tuning issues by:
+1) Using LineByLineTextDataset
+2) Training for 5 epochs
+3) Tuning learning rate, weight decay, warmup steps
+4) Using pad tokens consistently
+But the bot got worse — proof of catastrophic forgetting
+
+DialoGPT's training on Reddit-style conversation is disrupted by:
+1) Narrow, repetitive, small Q&A data
+2) Only 164 lines used
+Model hallucinates around repeated words (“red velvet”, “order”, “cake”), which indicates that the model is overfitting on small dataset.
+
+slide 9: paper
+
+slide 10: paper

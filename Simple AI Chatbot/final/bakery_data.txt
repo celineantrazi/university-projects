@@ -1,0 +1,164 @@
+Q: Hi
+A: Hello! Welcome to Ruby's Goodies for homemade chewies!
+
+Q: Hello
+A: Hello! Welcome to Ruby's Goodies for homemade chewies!
+
+Q: How are you
+A: We just got better now that you're viewing our virtual store!
+
+Q: Thank you
+A: You are welcome anytime again! Make sure to visit us again!
+
+Q: What are some of your menu items?
+A: We make cakes (custom & store-ready), cupcakes, cinnamon rolls, puff pastry, and fatayir.
+
+Q: What time do you open?
+A: We open at 8 AM from Monday to Saturday.
+
+Q: Do you make vegan cakes?
+A: Yes, we offer a selection of vegan cakes including chocolate, strawberry, and vanilla.
+
+Q: Can I place an order online?
+A: Yes, you can place an order online through our website or here via chat!
+
+Q: What cupcakes do you have today?
+A: We have chocolate, vanilla, and strawberry cupcakes available.
+
+Q: How much is a red velvet cake?
+A: A red velvet cake that feeds 6 costs $100, and the one that feeds 10 $130.
+
+Q: What’s the price of a dozen donuts?
+A: A dozen chocolate coated donuts cost $20, and the strawberry filled cost $35.
+
+Q: What are your hours on Friday?
+A: We're open from 8 AM to 8 PM every Friday.
+
+Q: How much does a gluten-free bread cost?
+A: Gluten-free bread typically costs around $29.
+
+Q: What payment methods are accepted?
+A: We accept cash, cards, and mobile payments.
+
+Q: How far do you deliver?
+A: We deliver within a 10 km radius of our store.
+
+Q: Are your products halal?
+A: Yes, all our ingredients are halal-certified.
+
+Q: Do you make low-carb cakes?
+A: Yes, we offer a variety of low-carb cakes including chocolate and vanilla.
+
+Q: Can I get a custom cake with graduation?
+A: Yes, we can create a custom cake with a graduation theme. Order at least 48 hours in advance.
+
+Q: Can I order donuts online?
+A: Yes, you can place an order for donuts through our website or this chat.
+
+Q: Do you take orders for special occasions?
+A: Absolutely! We make cakes and pastry platters for all events.
+
+Q: Can I cancel my order?
+A: Yes, you can cancel up to 12 hours before your scheduled pickup or delivery.
+
+Q: Can I schedule a pickup for donuts?
+A: Of course! Let us know your preferred time for picking up the donuts.
+
+Q: Where exactly is your bakery located?
+A: We're at Hamra Street, near OMT.
+
+Q: Do you have any gluten-free-friendly items?
+A: Yes, we have a few gluten-free options available every day.
+
+Q: Do you make sugar-free cakes?
+A: Yes, we offer a variety of sugar-free cakes including chocolate and vanilla.
+
+Q: What are your most popular items?
+A: Our most popular items include Nutella croissants, red velvet cupcakes, and cheesecake.
+
+Q: How long does it take to prepare a cheesecake?
+A: A cheesecake usually takes 24 hours to prepare. For same-day orders, call us first.
+
+Q: Can I order cheesecake online?
+A: Yes, you can place an order for cheesecake through our website or this chat.
+
+Q: Can I schedule a pickup for eclairs?
+A: Of course! Let us know your preferred time for picking up the éclairs.
+
+Q: What are your hours on Tuesday?
+A: We're open from 8 AM to 8 PM every Tuesday.
+
+Q: Do you provide catering services?
+A: Yes, we cater for birthdays, weddings, and business events.
+
+Q: What are your hours on Friday?
+A: We're open from 8 AM to 8 PM every Friday.
+
+Q: Can I get a custom cake with unicorn?
+A: Yes, we can create a custom cake with a unicorn theme. Order at least 48 hours in advance.
+
+Q: Do you have seasonal specials?
+A: Yes, we have items like pumpkin pie in fall and chocolate yule logs in December.
+
+Q: How much does an apple pie cost?
+A: An apple pie typically costs around $34.
+
+Q: Is apple pie available today?
+A: Yes, we have fresh red velvet cupcakes available until we sell out!
+
+Q: Can I schedule a pickup for eclairs?
+A: Of course! Let us know your preferred time for picking up the red velvet cupcakes.
+
+Q: How long does it take to prepare red velvet cupcakes?
+A: Red velvet cupcakes usually takes 24 hours to prepare. For same-day orders, call us first.
+
+Q: Do you make sugar-free cakes?
+A: Yes, we offer a variety of sugar-free cakes including chocolate and vanilla.
+
+Q: Is donuts available today?
+A: Yes, we have fresh fruit tart available until we sell out!
+
+Q: Do you provide catering services?
+A: Yes, we cater for birthdays, weddings, and business events.
+
+Q: What are your most popular items?
+A: Our most popular items include Nutella croissants, red velvet cupcakes, and cheesecake.
+
+Q: Do you have any sugar-free-friendly items?
+A: Yes, we have a few sugar-free-friendly options available every day.
+
+Q: What’s the best thing on your menu?
+A: The Nutella-stuffed croissant is our absolute fan favorite!
+
+Q: Do you take orders for special occasions?
+A: Absolutely! We make cakes and pastry platters for all events.
+
+Q: Can I order muffins online?
+A: Yes, you can place an order for muffins through our website or this chat.
+
+Q: Do you take orders for special occasions?
+A: Absolutely! We make cakes and pastry platters for all events.
+
+Q: Can I order bagels online?
+A: Yes, you can place an order for bagels through our website or this chat.
+
+Q: Do you sell birthday cake?
+A: Of-course! We have store-ready birthday cakes, or you can customize your own.
+
+Q: How much does a chocolate cake cost?
+A: A chocolate cake typically costs around $12.
+
+Q: Is chocolate cake available today?
+A: Yes, we have chocolate cakes available until we sell out!
+
+Q: Is red velvet cupcakes available today?
+A: Yes, we have 22 more red velvet cupcakes available until we sell out!
+
+Q: Do you make halal cakes?
+A: Yes, we offer a variety of halal cakes including chocolate and vanilla.
+
+Q: How long does it take to prepare a customized birthday cake?
+A: A customized birthday cake usually takes 24 hours to prepare. For same-day orders, call us first.
+
+Q: How much does a croissant cost?
+A: A croissant typically costs around $14.
